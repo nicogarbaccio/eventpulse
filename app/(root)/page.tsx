@@ -31,7 +31,11 @@ export default async function Home({ searchParams }: SearchParamProps) {
               Book and learn helpful tips from 3,168+ mentors in world-class
               companies with our global community.
             </p>
-            <Button size="lg" asChild className="button w-full sm:w-fit">
+            <Button
+              size="lg"
+              asChild
+              className="button w-full sm:w-fit bg-[#124559] hover:bg-[#598392]"
+            >
               <Link href="#events">Explore Now</Link>
             </Button>
           </div>
@@ -51,7 +55,7 @@ export default async function Home({ searchParams }: SearchParamProps) {
         className="wrapper my-8 flex flex-col gap-8 md:gap-12"
       >
         <h2 className="h2-bold">
-          Trust by <br /> Thousands of Events
+          Trusted by <br /> Thousands of Events
         </h2>
 
         <div className="flex w-full flex-col gap-5 md:flex-row">
